@@ -19,7 +19,8 @@ import {
     SectionTwo,
     SecTwoText, SecTwoImg, SecImg,
     SectionThree, CardContainer,
-    SectionFour, SecFourText, SecFourLinks
+    SectionFour, SecFourText, SecFourLinks,
+    Footer
 } from './styles'
 
 const HomePage = ()=>{
@@ -36,8 +37,8 @@ const HomePage = ()=>{
                 </H1>
                 <Paragraph>and I’m a software engineer</Paragraph>
                 <div>
-                    <Link href="#" gradient>Contact Me</Link> &nbsp;
-                    <Link href="#"><i className="fas fa-cloud-download-alt"></i></Link>
+                    <Link href="#contact" gradient>Contact Me</Link> &nbsp;
+                        <Link target="_blank" href="https://www.dropbox.com/s/piw0pomxmjxeh3e/Elujoba%20Folorunso.pdf?dl=0"><i className="fas fa-cloud-download-alt"></i></Link>
                 </div>
             </TextWrapper>
         </SecOneText>
@@ -158,7 +159,7 @@ const HomePage = ()=>{
     
     <SectionFour id="contact">
         <SecFourText>
-            <H1>Let's get in touch</H1>
+            <H1 smallSize="1.5em">Let's get in touch</H1>
         </SecFourText>
         <SecFourLinks>
             <Link background="#D0075B" href="mailto:hrfunsojoba@gmail.com" target="_blank" ><i className="far fa-envelope fa-2x"></i></Link> &nbsp;
@@ -167,6 +168,9 @@ const HomePage = ()=>{
             <Link href="twitter.com/funsoJoba" target="_blank" ><i class="fab fa-twitter fa-2x"></i></Link> &nbsp;
         </SecFourLinks>
     </SectionFour>
+    <Footer> 
+        <small>with ❤️ #funsojoba &copy; 2021 </small>
+    </Footer>
     </div>
 }
 
