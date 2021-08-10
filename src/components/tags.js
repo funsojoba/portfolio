@@ -1,7 +1,9 @@
 import styled, { css } from "styled-components";
 
-const TagDiv = styled.span`
+const TagDiv = styled.small`
     padding: 5px 10px;
+    margin:2.5px;
+    font-size: .5em;
     
     ${({ purple }) => purple && css`
         background: #EDDFFF;
