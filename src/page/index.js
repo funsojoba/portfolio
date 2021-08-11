@@ -83,7 +83,7 @@ const HomePage = ()=>{
                     <Img src="https://res.cloudinary.com/ddl2pf4qh/image/upload/v1628611643/portfolio/projects/Screenshot_2021-07-27_at_2.38.35_PM_ogwqk0.png" />
                     <div>
                         <Small>
-                            Kontat is a web app that allows you add a list of your contacts in one pleace, send email to an individual on your contact list, edit a contact and delete.
+                            Kontat is a web app that allows you add a list of your contacts in one place, send email to an individual on your contact list, edit a contact and delete.
                         </Small>
                     </div>
                     <TagWrapper>
