@@ -121,6 +121,27 @@ const HomePage = ()=>{
                     <Warning>In progress ...</Warning>
                 </Card>
                 <Card>
+                    <Img src="https://res.cloudinary.com/ddl2pf4qh/image/upload/v1630270361/portfolio/projects/Dashboard_hmr8wq.png" />
+                    <div>
+                        <Small>
+                            Fintrak is an income-expense tracker that helps you monitor how you spend your money and gives report on transactions.
+                        </Small>
+                    </div>
+                    <TagWrapper>
+                        <Tag blue>Django</Tag>
+                        <Tag purple>React</Tag>
+                        <Tag green>Redux</Tag>
+                        <Tag pink>Netlify</Tag>
+                        <Tag yellow>Heroku</Tag>
+                    </TagWrapper>
+                    <Link 
+                        background="none" 
+                        href="https://fintrak.netlify.app"
+                        color="#4F00B5" 
+                        target="_blank">VISIT HERE</Link>
+                    <Warning>In progress ...</Warning>
+                </Card>
+                <Card>
                     <Img src="https://res.cloudinary.com/ddl2pf4qh/image/upload/v1628611643/portfolio/projects/Screenshot_2021-08-10_at_4.45.49_PM_fnt3ya.png" />
                     <div>
                         <Small>
