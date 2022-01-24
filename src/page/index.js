@@ -24,6 +24,7 @@ import {
 } from './styles'
 
 const HomePage = ()=>{
+    let date = new Date()
     return <div>
     <NavBar />
     <SectionOne>
@@ -35,7 +36,7 @@ const HomePage = ()=>{
                     <span className="light">I'm</span><br></br>
                     FunsoJoba
                 </H1>
-                <Paragraph>and I’m a software engineer</Paragraph>
+                <Paragraph>and I'm a software engineer</Paragraph>
                 <div>
                     <Link href="#contact" gradient>Contact Me</Link> &nbsp;
                         <Link target="_blank" href="https://www.dropbox.com/s/piw0pomxmjxeh3e/Elujoba%20Folorunso.pdf?dl=0"><i className="fas fa-cloud-download-alt"></i></Link>
@@ -100,6 +101,28 @@ const HomePage = ()=>{
                         color="#4F00B5" >VISIT HERE</Link>
                 </Card>
                 <Card>
+                    <Img src="https://res.cloudinary.com/ddl2pf4qh/image/upload/v1630270361/portfolio/projects/Dashboard_hmr8wq.png" />
+                    <div>
+                        <Small>
+                            Fintrak is an income-expense tracker that helps you monitor how you spend your money and gives report on transactions.
+                        </Small>
+                    </div>
+                    <TagWrapper>
+                        <Tag blue>Django</Tag>
+                        <Tag purple>React</Tag>
+                        <Tag green>Redux</Tag>
+                        <Tag pink>Netlify</Tag>
+                        <Tag yellow>AWS</Tag>
+                        <Tag blue>Docker</Tag>
+                    </TagWrapper>
+                    <Link 
+                        background="none" 
+                        href="https://fintrak.netlify.app"
+                        color="#4F00B5" 
+                        target="_blank">VISIT HERE</Link>
+                    <Warning>In progress ...</Warning>
+                </Card>
+                <Card>
                     <Img src="https://res.cloudinary.com/ddl2pf4qh/image/upload/v1628611644/portfolio/projects/Screenshot_2021-08-10_at_4.29.20_PM_c43sof.png" />
                     <div>
                         <Small>
@@ -116,27 +139,6 @@ const HomePage = ()=>{
                     <Link 
                         background="none" 
                         href="https://regium-hotels.netlify.app/" 
-                        color="#4F00B5" 
-                        target="_blank">VISIT HERE</Link>
-                    <Warning>In progress ...</Warning>
-                </Card>
-                <Card>
-                    <Img src="https://res.cloudinary.com/ddl2pf4qh/image/upload/v1630270361/portfolio/projects/Dashboard_hmr8wq.png" />
-                    <div>
-                        <Small>
-                            Fintrak is an income-expense tracker that helps you monitor how you spend your money and gives report on transactions.
-                        </Small>
-                    </div>
-                    <TagWrapper>
-                        <Tag blue>Django</Tag>
-                        <Tag purple>React</Tag>
-                        <Tag green>Redux</Tag>
-                        <Tag pink>Netlify</Tag>
-                        <Tag yellow>Heroku</Tag>
-                    </TagWrapper>
-                    <Link 
-                        background="none" 
-                        href="https://fintrak.netlify.app"
                         color="#4F00B5" 
                         target="_blank">VISIT HERE</Link>
                     <Warning>In progress ...</Warning>
@@ -190,7 +192,7 @@ const HomePage = ()=>{
         </SecFourLinks>
     </SectionFour>
     <Footer> 
-        <small>with ❤️ #funsojoba &copy; 2021 </small>
+        <small>with ❤️ #funsojoba &copy; {date.getFullYear()} </small>
     </Footer>
     </div>
 }
