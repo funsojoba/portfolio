@@ -39,7 +39,7 @@ const HomePage = ()=>{
                 <Paragraph>and I'm a software engineer</Paragraph>
                 <div>
                     <Link href="#contact" gradient>Contact Me</Link> &nbsp;
-                        <Link target="_blank" href="https://www.dropbox.com/s/e12dk05djlbli0g/Elujoba%20Folorunso.pdf?dl=0"><i className="fas fa-cloud-download-alt"></i></Link>
+                        <Link target="_blank" href="https://www.dropbox.com/s/ph2cm6im9hah2eh/Elujoba%20Folorunso%202%20-%2011vzaxv1dMFYTX_4NS1MmLUm7C8HZ_iAivZBztdxGcOk.pdf?dl=0"><i className="fas fa-cloud-download-alt"></i></Link>
                 </div>
             </TextWrapper>
         </SecOneText>
