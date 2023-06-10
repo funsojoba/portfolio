@@ -164,6 +164,22 @@ const HomePage = ()=>{
                         target="_blank" >VISIT HERE</Link>
                 </Card>
                 <Card>
+                    <Img src="https://res.cloudinary.com/ddl2pf4qh/image/upload/v1686429918/Screenshot_2023-06-10_at_9.06.48_PM_cqn52f.png" />
+                    <div>
+                        <Small>
+                           Davent is an event management app, designed to make event registration, ticketing and monitoring as seemless as possible for event owners
+                        </Small>
+                    </div>
+                    <TagWrapper>
+                        <Tag blue>Django</Tag>
+                        <Tag yellow>AWS</Tag>
+                        <Tag purple>React</Tag>
+                        <Tag green>Redux</Tag>
+                        <Tag pink>Docker</Tag>
+                    </TagWrapper>
+                    <Warning>In progress ...</Warning>
+                </Card>
+                <Card>
                     <Img src="https://res.cloudinary.com/ddl2pf4qh/image/upload/v1628611642/portfolio/projects/Screenshot_2021-08-10_at_4.47.55_PM_t6uyxr.png" />
                     <div>
                         <Small>
