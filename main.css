@@ -5,12 +5,21 @@
   font-family: "Poppins", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   width: 100%;
 }
 
 .red {
   color: #B60000;
+}
+
+.stack-tag {
+  padding: 2.5px 4px;
+  margin-right: 5px;
 }
 
 .white-button {
@@ -100,15 +109,152 @@ h2 {
 
 .section-two {
   padding: 40px;
-  background: yellow;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
+  position: relative;
+  margin-bottom: 50px;
+}
+.section-two::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 0;
+  height: 1px;
+  background: #c4c4c4;
 }
 .section-two .logo {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 30px;
+  flex-wrap: wrap;
 }
 .section-two .logo-image {
   width: 200px;
+}
+
+.section-three {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-three h2 {
+  margin-bottom: 30px;
+}
+.section-three .card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-three .card-container .card {
+  width: 300px;
+  margin: 10px;
+  background: #fff;
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease-in;
+}
+.section-three .card-container .card-img {
+  width: 100%;
+}
+.section-three .card-container .card .text {
+  padding: 15px;
+}
+.section-three .card-container .card .text p {
+  font-weight: light;
+}
+.section-three .card-container .card .text .tags {
+  margin-top: 10px;
+}
+.section-three .card-container .card .text a {
+  display: inline-block;
+  text-decoration: none;
+  color: #B60000;
+  padding: 5px 15px;
+  margin-top: 20px;
+}
+.section-three .card-container .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.section-four {
+  display: flex;
+  height: 80vh;
+  position: relative;
+  background: #fff9f9;
+}
+.section-four .last {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.section-four .last a {
+  text-decoration: none;
+  color: #B60000;
+  display: inline-block;
+}
+.section-four .text-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-four .text-content .text {
+  width: 60%;
+}
+.section-four .text-content .text h1 {
+  color: #B60000;
+  margin-bottom: 20px;
+}
+.section-four .text-content .text .links {
+  display: flex;
+  margin-top: 20px;
+}
+.section-four .text-content .text .links a {
+  display: inline-block;
+  width: 40px;
+  background: #B60000;
+  padding: 10px;
+  margin-right: 5px;
+  transition: all 100ms ease-in;
+}
+.section-four .text-content .text .links a:hover {
+  transform: translateY(-5px);
+}
+.section-four .image-cover {
+  flex: 1;
+  background: url("https://res.cloudinary.com/ddl2pf4qh/image/upload/v1687544046/portfolio/bg-con_wet4cx.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-four .image-cover .image {
+  width: 150px;
+}
+
+.yellow-tag {
+  background: rgb(255, 255, 215);
+}
+
+.blue-tag {
+  background-color: rgb(168, 211, 255);
+}
+
+.purple-tag {
+  background: rgb(255, 197, 255);
+}
+
+.green-tag {
+  background: rgb(216, 255, 216);
+}
+
+.red-tag {
+  background: #fff3f3;
 }/*# sourceMappingURL=main.css.map */
