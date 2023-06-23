@@ -2,10 +2,30 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 img {
   width: 100%;
+}
+
+.red {
+  color: #B60000;
+}
+
+.white-button {
+  background-color: #fff;
+  border: solid 1px #B60000;
+}
+
+.red-button {
+  background: #B60000;
+  color: #fff;
+  padding: 10px;
+}
+
+h2 {
+  color: #858585;
 }
 
 .header {
@@ -15,12 +35,80 @@ img {
 .header .nav {
   position: sticky;
   top: 0;
-  background: #fff;
-  padding: 30px;
+  background: rgba(255, 255, 255, 0.4901960784);
+  padding: 10px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .header .nav-logo {
   width: 70px;
+}
+.header .content {
+  display: flex;
+}
+.header .content .text-content {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .content .text-content .text {
+  width: 70%;
+}
+.header .content .text-content .text h1 {
+  font-size: 2.5em;
+  font-weight: 300;
+}
+.header .content .text-content .text .red {
+  font-weight: 700;
+}
+.header .content .text-content .text .buttons {
+  display: flex;
+  margin-top: 20px;
+}
+.header .content .text-content .text .buttons a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 100ms ease-in;
+}
+.header .content .text-content .text .buttons a:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
+}
+.header .content .text-content .text .buttons a#contact {
+  background: #B60000;
+  padding: 10px 15px;
+  color: #fff;
+}
+.header .content .text-content .text .buttons a#download-link {
+  width: 40px;
+  padding: 10px;
+  background: #B60000;
+  margin-left: 20px;
+}
+.header .content .text-content .text .buttons a#git-link {
+  width: 40px;
+  padding: 10px;
+  border: solid 1px #B60000;
+  margin-left: 20px;
+}
+.header .content .image {
+  flex: 1;
+}
+
+.section-two {
+  padding: 40px;
+  background: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-two .logo {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section-two .logo-image {
+  width: 200px;
 }/*# sourceMappingURL=main.css.map */
