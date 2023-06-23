@@ -5,4 +5,7 @@
 ## Features 
 - Responsive
 - Powered by React
-![Screenshot 2021-08-10 at 4 47 55 PM](https://user-images.githubusercontent.com/42432746/129005678-149dcc90-7875-42f2-b6dc-fd0302491ba4.png)
+
+
+
+![port](https://github.com/funsojoba/portfolio/assets/42432746/f8458d77-9234-403b-9941-d8bcf6990a3b)
