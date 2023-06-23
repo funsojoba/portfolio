@@ -80,12 +80,24 @@ h2 {
 .header .content .text-content .text {
   width: 70%;
 }
+@media only screen and (max-width: 550px) {
+  .header .content .text-content .text {
+    width: 90%;
+    margin-top: 50px;
+  }
+}
 .header .content .text-content .text h1 {
   font-size: 2.5em;
   font-weight: 300;
 }
+@media only screen and (max-width: 550px) {
+  .header .content .text-content .text h1 {
+    font-size: 2em;
+  }
+}
 .header .content .text-content .text .red {
   font-weight: 700;
+  position: relative;
 }
 .header .content .text-content .text .buttons {
   display: flex;
@@ -109,16 +121,21 @@ h2 {
   width: 40px;
   padding: 10px;
   background: #B60000;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .header .content .text-content .text .buttons a#git-link {
   width: 40px;
   padding: 10px;
   border: solid 1px #B60000;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .header .content .image {
   flex: 1;
+}
+@media only screen and (max-width: 550px) {
+  .header .content .image {
+    display: none;
+  }
 }
 .header .white-circle {
   position: absolute;
@@ -133,6 +150,11 @@ h2 {
   transform: translate(-50%, -50%);
   top: 300px;
 }
+@media only screen and (max-width: 550px) {
+  .header .sq-dots {
+    left: 0;
+  }
+}
 .header .lines {
   position: absolute;
   top: 100px;
@@ -145,6 +167,12 @@ h2 {
   right: 50%;
   width: 200px;
   transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 550px) {
+  .header .red-circle {
+    bottom: -50px;
+    left: -50px;
+  }
 }
 
 .section-two {
@@ -175,6 +203,11 @@ h2 {
 }
 .section-two .logo-image {
   width: 200px;
+}
+@media only screen and (max-width: 550px) {
+  .section-two .logo-image {
+    width: 100px;
+  }
 }
 
 .section-three {
@@ -274,6 +307,11 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 550px) {
+  .section-four .image-cover {
+    display: none;
+  }
 }
 .section-four .image-cover .image {
   width: 150px;
