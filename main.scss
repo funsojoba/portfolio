@@ -39,7 +39,7 @@ h2{
 }
 
 .header{
-    height: 100vh;
+    // height: 100vh;
     position: relative;
 
     .nav{
@@ -53,6 +53,25 @@ h2{
 
         &-logo{
             width: 70px;
+        }
+
+        &-text ul{
+            display: flex;
+
+            li{
+                display: inline-block;
+                list-style: none;
+
+                a{
+                    color: #B60000;
+                    text-decoration: none;
+                    margin-right: 20px;
+
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
         }
     }
 
@@ -116,6 +135,35 @@ h2{
         .image{
             flex: 1;
         }
+    }
+
+    .white-circle{
+        position: absolute;
+        right: 0;
+        top: 35%;
+
+    }
+    .sq-dots{
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        width: 200px;
+        transform: translate(-50%, -50%);
+        top: 300px;
+    }
+    .lines{
+        position: absolute;
+        top: 100px;
+        left: 0;
+    }
+
+    .red-circle{
+        position:absolute;
+        bottom: 0;
+        left: 50%;
+        right: 50%;
+        width: 200px;
+        transform: translate(-50%, -50%);
     }
 }
 

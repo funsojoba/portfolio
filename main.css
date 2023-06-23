@@ -38,7 +38,6 @@ h2 {
 }
 
 .header {
-  height: 100vh;
   position: relative;
 }
 .header .nav {
@@ -52,6 +51,21 @@ h2 {
 }
 .header .nav-logo {
   width: 70px;
+}
+.header .nav-text ul {
+  display: flex;
+}
+.header .nav-text ul li {
+  display: inline-block;
+  list-style: none;
+}
+.header .nav-text ul li a {
+  color: #B60000;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.header .nav-text ul li a:hover {
+  text-decoration: underline;
 }
 .header .content {
   display: flex;
@@ -105,6 +119,32 @@ h2 {
 }
 .header .content .image {
   flex: 1;
+}
+.header .white-circle {
+  position: absolute;
+  right: 0;
+  top: 35%;
+}
+.header .sq-dots {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  width: 200px;
+  transform: translate(-50%, -50%);
+  top: 300px;
+}
+.header .lines {
+  position: absolute;
+  top: 100px;
+  left: 0;
+}
+.header .red-circle {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: 50%;
+  width: 200px;
+  transform: translate(-50%, -50%);
 }
 
 .section-two {
